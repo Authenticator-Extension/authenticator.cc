@@ -1,1 +1,1 @@
-# Authenticator-Extension.github.io
+# Authenticator Extension
