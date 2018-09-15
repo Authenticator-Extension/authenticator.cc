@@ -1,3 +1,7 @@
+---
+title: Authenticator
+---
+
 # Google Drive Integration Privacy
 
 ### Data Storage and Use
