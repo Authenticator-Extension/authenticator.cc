@@ -1,0 +1,25 @@
+.button {
+  color: #333;
+  padding: 6px 12px;
+  text-decoration: none;
+  margin: 0 5px 0 5px;
+  border-radius: 5px;
+  border: #333 solid 2px;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  margin: 0;
+}
+
+#wrapper {
+  text-align: center;
+}
