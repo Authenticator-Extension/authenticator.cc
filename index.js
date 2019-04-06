@@ -24,8 +24,10 @@ function setButtons() {
             link1.href = "https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai";
             link2.innerText = "Add to Firefox";
             link2.href = "https://addons.mozilla.org/en-US/firefox/addon/auth-helper?src=external-website";
+            break;
         case "Opera":
             link0.href = "https://github.com/Authenticator-Extension/Authenticator/wiki/Install-in-Opera";
+            break;
         default:
             break;
     }
