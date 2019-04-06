@@ -38,10 +38,10 @@
                     </div>
                     <div class="list-group list-group-flush">
                         {% for doc in section.docs %}
-                        {% if page.url == doc.url %}
-                        <a href="/docs/en/{{ docs.stub }}" lass="list-group-item active">{{ docs.title }}</a>
+                        {% if page.stub == doc.stub %}
+                        <a href="{{ doc.stub | prepend: '/docs/en/' }}" lass="list-group-item active">{{ docs.title }}</a>
                         {% else %}
-                        <a href="/docs/en/{{ docs.stub }}" class="list-group-item">{{ docs.title }}</a>
+                        <a href="{{ doc.stub | prepend: '/docs/en/' }}" class="list-group-item">{{ docs.title }}</a>
                         {% endif %}
                         {% endfor %}
                     </div>
