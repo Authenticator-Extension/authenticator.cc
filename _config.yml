@@ -1,0 +1,10 @@
+title: Authenticator
+url: "https://authenticator.cc"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+
