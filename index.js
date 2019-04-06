@@ -3,8 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function setButtons() {
+    // Defualts to Chrome
     const link0 = document.getElementById("a-primary");
+    // Defaults to Firefox
     const link1 = document.getElementById("a-secondary");
+    // Defualts to Edge
     const link2 = document.getElementById("a-tertiary");
     const browser = getBrowser();
 
@@ -21,6 +24,8 @@ function setButtons() {
             link1.href = "https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai";
             link2.innerText = "Add to Firefox";
             link2.href = "https://addons.mozilla.org/en-US/firefox/addon/auth-helper?src=external-website";
+        case "Opera":
+            link0.href = "https://github.com/Authenticator-Extension/Authenticator/wiki/Install-in-Opera";
         default:
             break;
     }
@@ -31,6 +36,8 @@ function getBrowser() {
         return "Firefox";
     } else if (navigator.userAgent.indexOf("Edge") !== -1) {
         return "Edge";
+    } else if (navigator.userAgent.indexOf("OPR") !== -1 || navigator.userAgent.indexOf("Opera") !== -1) { 
+        return "Opera";
     } else {
         return "Chrome"
     }
