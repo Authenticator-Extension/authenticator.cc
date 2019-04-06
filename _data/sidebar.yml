@@ -3,5 +3,7 @@ sections:
     docs:
       - title: Test
         stub: test
+      - title: Test 2
+        stub: test-2
 
         
