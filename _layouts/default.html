@@ -28,26 +28,28 @@
     </nav>
     <div class="container">
         <div class="row">
-            {% assign sidebar = site.data.sidebar.sections %}
-            {% for section in sidebar %}
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                    {{ section.title }}
+            <div class="col">
+                {% assign sidebar = site.data.sidebar.sections %}
+                {% for section in sidebar %}
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        {{ section.title }}
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        {% for subsection in section.subsections %}
+                        <li class="list-group-item">{{ subsection.title }}</li>
+                        {% endfor %}
+                    </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                    {% for subsection in section.subsections %}
-                    <li class="list-group-item">{{ subsection.title }}</li>
-                    {% endfor %}
+                {% endfor %}
+    
+                <ul>
+                    <li>{{ link.title }}</li>
                 </ul>
             </div>
-            {% endfor %}
-
-            <ul>
-                <li>{{ link.title }}</li>
-            </ul>
-        </div>
-        <div class="row">
-            {{ content }}
+            <div class="col-8">
+                {{ content }}
+            </div>
         </div>
     </div>
     <!-- Bootstrap JS -->
