@@ -1,9 +1,7 @@
 sections:
   - title: Section
-    subsections:
-      - title: Doc Title
-        url: /docs/page.html
+    docs:
       - title: Test
-        url: /docs/test.html
+        stub: test
 
         
