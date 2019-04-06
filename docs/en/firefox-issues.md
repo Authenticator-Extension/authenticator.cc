@@ -1,6 +1,7 @@
 ---
 title: Firefox Issues
 lang: en
+stub: firefox-issues
 ---
 
 ## Reinstalling Authenticator with your storage location set to 'local' will cause data loss.
