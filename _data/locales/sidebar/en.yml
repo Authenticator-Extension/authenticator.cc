@@ -6,7 +6,5 @@ sections:
         stub: test
       - title: Firefox Issues
         stub: firefox-issues
-      - title: other
-        stub: other
 
         
