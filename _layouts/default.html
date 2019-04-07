@@ -2,9 +2,6 @@
 <html lang="{{ page.lang | default: 'en-US' }}">
 
 {% assign i18n = site.data.locales.default[page.lang] | default: site.data.locales.default.en %}
-{% if i18n != %}
-{% assign i18n = site.data.locales.default.en %}
-{% endif %}
 
 <head>
     <meta charset="utf-8">
@@ -63,7 +60,7 @@
                         {% else %}
                         <a href="{{ doc.stub | prepend: base }}" class="list-group-item">{{ doc.title }}
                             {% if translatedPage.size != 1 %}
-                            <span class="badge badge-secondary">Unlocalized</span>
+                            <span class="badge badge-secondary">{{ i18n.unlocalized }}</span>
                             {% endif %}
                         </a>
                         {% endif %}
@@ -97,9 +94,9 @@
                 </div>
                 {% endif %}
                 <div class="float-right">
-                    <a href="#" type="button" class="btn btn-secondary">Translate</a>
+                    <a href="#" type="button" class="btn btn-secondary">{{ i18n.translate }}</a>
                     <a href="{{ page.path | prepend: 'https://github.com/Authenticator-Extension/authenticator.cc/tree/master/' }}"
-                        type="button" class="btn btn-secondary">Edit</a>
+                        type="button" class="btn btn-secondary">{{ i18n.edit }}</a>
                 </div>
             </div>
         </div>
