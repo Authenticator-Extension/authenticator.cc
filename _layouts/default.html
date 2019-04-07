@@ -66,19 +66,19 @@
                 <div class="dropdown d-inline">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {{ site.data.languages[page.lang] }}
+                        {{ site.data.languages[item.lang].flag }} {{ site.data.languages[page.lang].name }}
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         {% for item in pages %}
-                        <a href="{{ site.base-url }}{{ item.url }}" class="dropdown-item">{{ site.data.languages[item.lang] }}</a>
+                        <a href="{{ site.base-url }}{{ item.url }}" class="dropdown-item">{{ site.data.languages[item.lang].flag }} {{ site.data.languages[item.lang].name }}</a>
                         {% endfor %}
                     </div>
                 </div>
                 {% endif %}
                 <div class="float-right">
                     <a href="{{ page.path | prepend: 'https://github.com/Authenticator-Extension/authenticator.cc/tree/master/' }}"
-                        type="button" class="btn btn-outline-secondary">Edit</a>
-                    <a href="#" type="button" class="btn btn-outline-secondary">Translate</a>
+                        type="button" class="btn btn-secondary">Edit</a>
+                    <a href="#" type="button" class="btn btn-secondary">Translate</a>
                 </div>
             </div>
         </div>

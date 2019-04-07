@@ -1,2 +1,6 @@
-en: English
-es: Español
+en: 
+  name: English
+  flag: 🇺🇸
+es: 
+  name: Español
+  flag: 🇪🇸
