@@ -1,6 +1,7 @@
 ---
 title: Firefox Issues
 lang: en
+ver: 2
 stub: firefox-issues
 ---
 

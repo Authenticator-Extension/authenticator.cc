@@ -24,14 +24,8 @@
             <img src="/assets/logo/logo.svg" width="30" height="30" class="d-inline-block align-top">
             {{ site.title }}
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="https://github.com/Authenticator-Extension">GitHub</a>
-            </div>
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="https://github.com/Authenticator-Extension">GitHub</a>
         </div>
     </nav>
     <br>
@@ -75,8 +69,25 @@
             <div class="col-8">
                 <h1>{{ page.title }}</h1>
                 <hr>
+                <!-- Outdated translatons notice -->
+                {% if page.ver %}
+                {% assign enPage=site.pages | where:"stub", page.stub | where:"lang", "en" | first %}
+                {% if page.ver < enPage.ver %}
+                <div class="alert alert-warning" role="alert">
+                    <h4 class="alert-heading">{{ i18n.warning }}</h4>
+                    <p>{{ i18n.outdated-warn-1 }} <a class="alert-link"
+                            href="{{ enPage.url | prepend: site.url }}">{{ i18n.outdated-warn-2 }}</a>
+                        {{ i18n.outdated-warn-3 }}</p>
+                    <hr>
+                    <p class="mb-0"><a class="alert-link" href="#">{{ i18n.translate-long }}</a>
+                    </p>
+                </div>
+                {% endif %}
+                {% endif %}
+                <!-- -->
                 {{ content }}
                 <hr>
+                <!-- Footer -->
                 {% assign pages=site.pages | where:"stub", page.stub | sort: 'lang' %}
                 {% if pages.size > 1 %}
                 <div class="dropdown d-inline">
