@@ -16,12 +16,6 @@
             <img src="/assets/logo/logo.svg" width="30" height="30" class="d-inline-block align-top">
             Authenticator
         </a>
-        {% if page.stub %}
-        <ol class="breadcrumb mb-0">
-            <li class="breadcrumb-item"><a href="/docs">Documentation</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-        </ol>
-        {% endif %}
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -57,15 +51,33 @@
                 {% endfor %}
             </div>
             <div class="col-8">
+                <h1>{{ page.title }}</h1>
+                <hr>
                 {{ content }}
                 <hr>
                 <div>
+                    {% assign pages=site.pages | where:"stub", page.stub | sort: 'lang' %}
+                    {% if pages.size > 1 %}
+                    <div class="dropdown show">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ page.lang }}</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            {% for item in pages %}
+                            <a href="{{ site.base-url }}{{ item.url }}" class="dropdown-item">{{ item.lang }}</a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="float-right">
                     <a href="{{ page.path | prepend: 'https://github.com/Authenticator-Extension/authenticator.cc/tree/master/' }}"
-                        type="button" class="btn btn-secondary">Edit</a>
-                    <a href="#" type="button" class="btn btn-secondary">Translate</a>
+                        type="button" class="btn btn-outline-secondary">Edit</a>
+                    <a href="#" type="button" class="btn btn-outline-secondary">Translate</a>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
