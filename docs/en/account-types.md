@@ -1,3 +1,11 @@
+---
+title: Account Types
+stub: account-types
+canonical_url: 'https://authenticator.cc/docs/en/account-types/'
+lang: en
+ver: 1
+---
+
 | Type | Details | 
 | ---- | ------ |
 | Time Based | TOTP | 

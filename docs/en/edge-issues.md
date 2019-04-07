@@ -1,3 +1,11 @@
+---
+title: Edge Issues
+stub: edge-issues
+canonical_url: 'https://authenticator.cc/docs/en/edge-issues/'
+lang: en
+ver: 1
+---
+
 ## REINSTALLING THE EXTENSION WILL CLEAR YOUR DATA. NEVER REINSTALL THE EXTENSION TO FIX ANY ISSUES
 
 ### Known Issues

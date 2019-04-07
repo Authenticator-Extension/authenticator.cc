@@ -1,3 +1,11 @@
+---
+title: Standard Backup Format Developer Info
+stub: otp-backup-developer
+canonical_url: 'https://authenticator.cc/docs/en/otp-backup-developer/'
+lang: en
+ver: 1
+---
+
 Backups are just text files with one otpauth URI per line. Documentation on otpauth URIs are available [here](https://github.com/google/google-authenticator/wiki/Key-Uri-Format). For example, a backup could look like this:
 
 ```

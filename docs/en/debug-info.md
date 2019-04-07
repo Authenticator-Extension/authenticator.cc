@@ -1,3 +1,11 @@
+---
+title: Getting Debugging Information
+stub: debug-info
+canonical_url: 'https://authenticator.cc/docs/en/debug-info/'
+lang: en
+ver: 1
+---
+
 Follow these steps to report detailed debugging information.
 
 ## Chrome

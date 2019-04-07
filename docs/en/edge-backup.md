@@ -1,3 +1,11 @@
+---
+title: Backing up in Edge
+stub: edge-backup
+canonical_url: 'https://authenticator.cc/docs/en/edge-backup/'
+lang: en
+ver: 1
+---
+
 1. Open Authenticator, right click, and choose "Inspect Element"
 
 ![step1](https://raw.githubusercontent.com/wiki/Authenticator-Extension/Authenticator/edge-backup-screenshots/step1.PNG)

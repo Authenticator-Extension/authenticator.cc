@@ -1,3 +1,11 @@
+---
+title: Chrome Issues
+stub: chrome-issues
+canonical_url: 'https://authenticator.cc/docs/en/chrome-issues/'
+lang: en
+ver: 1
+---
+
 ## **REINSTALLING THE EXTENSION WILL CLEAR YOUR DATA. NEVER REINSTALL THE EXTENSION TO FIX ANY ISSUES**
 
 - If you have a text backup, but don't know how to import it read [[Old Backups]]

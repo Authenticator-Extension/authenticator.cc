@@ -1,3 +1,12 @@
+---
+title: Edge Privacy Policy
+stub: edge-privacy
+canonical_url: 'https://authenticator.cc/docs/en/edge-privacy/'
+layout: no-sidebar
+lang: en
+ver: 1
+---
+
 ### This document only applies to the Edge version of Authenticator.
 
 ---
