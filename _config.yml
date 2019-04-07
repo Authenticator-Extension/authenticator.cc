@@ -7,4 +7,4 @@ plugins:
 
 exclude:
   - README.md
-
+  - .gitignore
