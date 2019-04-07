@@ -35,6 +35,7 @@
     <br>
     <div class="container">
         <div class="row">
+            {% if page.stub %}
             <div class="col">
                 {% assign sidebar = site.data.sidebar.sections %}
                 {% for section in sidebar %}
@@ -44,11 +45,18 @@
                     </div>
                     <div class="list-group list-group-flush">
                         {% for doc in section.docs %}
+
+                        {% assign translatedPage=site.pages | where:"stub", page.stub | where:"lang", page.lang %}
+                        {% if translatedPage.size == 1 %}
+                        {% assign base = '/docs/' | append: page.lang | append: '/' }
+                        {% else %}
+                        {% assign base = '/docs/' | append: 'en/' }
+                        {% endif %}
                         {% if page.stub == doc.stub %}
-                        <a href="{{ doc.stub | prepend: '/docs/en/' }}"
+                        <a href="{{ doc.stub | prepend: base }}"
                             class="list-group-item active">{{ doc.title }}</a>
                         {% else %}
-                        <a href="{{ doc.stub | prepend: '/docs/en/' }}" class="list-group-item">{{ doc.title }}</a>
+                        <a href="{{ doc.stub | prepend: base }}" class="list-group-item">{{ doc.title }}</a>
                         {% endif %}
                         {% endfor %}
                     </div>
@@ -56,6 +64,7 @@
                 <br>
                 {% endfor %}
             </div>
+            {% endif %}
             <div class="col-8">
                 <h1>{{ page.title }}</h1>
                 <hr>
@@ -66,7 +75,7 @@
                 <div class="dropdown d-inline">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {{ site.data.languages[item.lang].flag }} {{ site.data.languages[page.lang].name }}
+                        {{ site.data.languages[page.lang].flag }} {{ site.data.languages[page.lang].name }}
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         {% for item in pages %}
@@ -76,9 +85,9 @@
                 </div>
                 {% endif %}
                 <div class="float-right">
+                    <a href="#" type="button" class="btn btn-secondary">Translate</a>
                     <a href="{{ page.path | prepend: 'https://github.com/Authenticator-Extension/authenticator.cc/tree/master/' }}"
                         type="button" class="btn btn-secondary">Edit</a>
-                    <a href="#" type="button" class="btn btn-secondary">Translate</a>
                 </div>
             </div>
         </div>
