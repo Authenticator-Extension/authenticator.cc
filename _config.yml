@@ -4,6 +4,9 @@ url: "https://authenticator.cc"
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
+
+highlighter: rouge
 
 exclude:
   - README.md

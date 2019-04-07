@@ -1,3 +1,7 @@
-<div class="alert alert-warning" role="alert">
-        <p>{{ content }}</p>
+<div class="{{ include.class | default: 'warning' | prepend: 'alert alert-' }}" role="alert">
+        {% if include.title %}
+        <h1>{{ include.title }}</h1>
+        <hr>
+        {% endif %}
+        {{ include.message }}
 </div>

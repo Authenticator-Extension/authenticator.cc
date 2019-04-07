@@ -8,4 +8,4 @@ stub: test
 
 Test page
 
-{% include danger.html content="Test warn" %}
+{% include warning.html class="danger" message="Test warn" %}

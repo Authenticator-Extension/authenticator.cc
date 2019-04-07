@@ -11,6 +11,7 @@ Some 2FA applications support interoperable backups. In other words, if you make
 | Application | Version | Notes |
 | ----------- | ------- | ----- |
 | [Authenticator Extension](https://authenticator.cc) | v5.3.0 | Encrypted backups not supported |
+{: .table .table-striped}
 
 Planned Support:
 
