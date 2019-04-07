@@ -8,6 +8,11 @@ ver: 1
 
 Follow these steps to report detailed debugging information.
 
+- [Chrome](#chrome)
+- [Firefox](#firefox)
+
+---
+
 ## Chrome
 
 1. Open Authenticator
@@ -22,6 +27,8 @@ Follow these steps to report detailed debugging information.
 4. Copy and paste any messages into the issue description
 
 ![step4](https://raw.githubusercontent.com/wiki/Authenticator-Extension/Authenticator/debugging-screenshots/chrome/step4.PNG)
+
+---
 
 ## Firefox
 

@@ -17,4 +17,4 @@ Planned Support:
 
 - [Gnome Authenticator](https://gitlab.gnome.org/World/Authenticator)
 
-[Developer information](https://github.com/Authenticator-Extension/Authenticator/wiki/Standard-OTP-Backup-Format-Devloper-Info)
+[Developer information](otp-backup-developer)
