@@ -1,0 +1,1 @@
+Navigate using the sidebar.
