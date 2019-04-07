@@ -4,6 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% assign pages=site.pages | where:"stub", page.stub | sort: 'lang' %}
+    {% if pages.size > 1 %}
+    {% for item in pages %}
+    <link rel="alternate" hreflang="{{item.lang}}" href="{{ site.base-url }}{{ item.url }}" />
+    {% endfor %}
+    {% endif %}
     {% seo %}
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -60,11 +66,11 @@
                 <div class="dropdown d-inline">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {{ page.lang }}
+                        {{ site.data.languages[page.lang] }}
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         {% for item in pages %}
-                        <a href="{{ site.base-url }}{{ item.url }}" class="dropdown-item">{{ item.lang }}</a>
+                        <a href="{{ site.base-url }}{{ item.url }}" class="dropdown-item">{{ site.data.languages[item.lang] }}</a>
                         {% endfor %}
                     </div>
                 </div>
