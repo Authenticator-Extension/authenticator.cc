@@ -1,5 +1,6 @@
 sections:
   - title: Section
+    key: section
     docs:
       - title: Test
         stub: test

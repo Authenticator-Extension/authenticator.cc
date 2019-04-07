@@ -39,7 +39,7 @@
         <div class="row">
             {% if page.stub %}
             <div class="col">
-                {% assign sidebar = site.data.sidebar.sections %}
+                {% assign sidebar = site.data.locales.sidebar[page.lang].sections | default: site.data.locales.sidebar.en.sections %}
                 {% for section in sidebar %}
                 <div class="card" style="width: 18rem;">
                     <div class="card-header">
