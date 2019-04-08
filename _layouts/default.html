@@ -53,9 +53,9 @@
                         <a href="{{ doc.stub | prepend: base }}" class="list-group-item active">{{ doc.title }}</a>
                         {% else %}
                         <a href="{{ doc.stub | prepend: base }}" class="list-group-item">{{ doc.title }}
-                            {% if translatedPage.size != 1 %}
+                            {% unless translatedPage.size == 1 %}
                             <span class="badge badge-secondary">{{ i18n.unlocalized }}</span>
-                            {% endif %}
+                            {% endunless %}
                         </a>
                         {% endif %}
 
@@ -84,8 +84,11 @@
                 </div>
                 {% endif %}
                 {% endif %}
+                <!-- This page is avalible in {{ language }} -->
+                <div class="alert alert-primary" id="lang-change-div" style="display: none;" role="alert">
+                    <a id="lang-change-a" class="alert-link"></a> <span id="lang-change-text"></span>
+                </div>
                 <!-- -->
-                <!-- TODO: This page is avalible in your lang notice -->
                 {{ content }}
                 <hr>
                 <!-- Footer -->
@@ -115,6 +118,7 @@
     </div>
     </div>
     <br>
+    <script src="/js/langnotice.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

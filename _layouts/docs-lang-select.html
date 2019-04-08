@@ -24,10 +24,11 @@
     <div class="container">
         <!-- BODY -->
         <h1>Pick language:</h1>
-        {% for lang in site.data.languages.table %}
-        <a href="{{ lang }}"><li>{{ site.data.languages[lang].flag }} {{ site.data.languages[lang].name }}</li></a>
-        {% endfor %}
-
+        <ul>
+            {% for lang in site.data.languages.table %}
+            <li><a href="{{ lang }}">{{ site.data.languages[lang].flag }} {{ site.data.languages[lang].name }}</a></li>
+            {% endfor %}
+        </ul>
     </div>
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
