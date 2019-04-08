@@ -1,4 +1,4 @@
-# Authenticator Extension Website
+# Authenticator Extension Website [![Crowdin](https://d322cqt584bo4o.cloudfront.net/authenticator-docs/localized.svg)](https://crowdin.com/project/authenticator-docs)
 
 - Increment `ver` by one when making important changes to a page
 - When updating `_data/locales/sidebar/xx.yml`, make sure to sync changes between all languages
