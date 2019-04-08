@@ -1,4 +1,8 @@
-# Google Drive Integration Privacy
+---
+title: Google Drive Integration Privacy
+layout: no-sidebar
+lang: en
+---
 
 ### Data Storage and Use
 
