@@ -14,7 +14,7 @@ ver: 1
 
 3. Click "Update Extensions Now"
 
-![chrome](https://raw.githubusercontent.com/wiki/Authenticator-Extension/Authenticator/update-screenshots/chrome.png)
+![chrome](/assets/update-screenshots/chrome.png)
 
 ## Firefox
 
@@ -24,4 +24,4 @@ ver: 1
 
 3. Click "Check for Updates"
 
-![firefox](https://raw.githubusercontent.com/wiki/Authenticator-Extension/Authenticator/update-screenshots/firefox.png)
+![firefox](/assets/update-screenshots/firefox.png)
