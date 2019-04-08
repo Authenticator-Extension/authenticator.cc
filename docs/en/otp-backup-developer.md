@@ -21,4 +21,4 @@ Tips:
 - Remember that the issuer and account name cannot contain a colon (`:` or `%3A`) 
 - Save the file as `text/plain`
 
-If your application can import and export backups in this format please [raise an issue](https://github.com/Authenticator-Extension/Authenticator/issues/new) so we can put you on [the list](otp-backup).
+If your application can import and export backups in this format please [raise an issue](https://github.com/Authenticator-Extension/authenticator.cc/issues/new) so we can put you on [the list](otp-backup).
