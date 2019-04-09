@@ -95,15 +95,17 @@
                 {% assign pages=site.pages | where:"stub", page.stub | sort: 'lang' %}
                 {% if pages.size > 1 %}
                 <div class="dropdown d-inline">
+                    {% assign currentLang = site.data.languages.table | where: "code", page.lang | first %}
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {{ site.data.languages[page.lang].flag }} {{ site.data.languages[page.lang].name }}
+                        {{ currentLang.flag }} {{ currentLang.name }}
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         {% for item in pages %}
+                        {% assign lang = site.data.languages.table | where: "code", item.lang | first %}
                         <a href="{{ site.base-url }}{{ item.url }}"
-                            class="dropdown-item">{{ site.data.languages[item.lang].flag }}
-                            {{ site.data.languages[item.lang].name }}</a>
+                            class="dropdown-item">{{ lang.flag }}
+                            {{ lang.name }}</a>
                         {% endfor %}
                     </div>
                 </div>

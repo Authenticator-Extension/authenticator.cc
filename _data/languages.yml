@@ -1,10 +1,7 @@
 table:
-  - 'en'
-  - 'es'
-
-en: 
-  name: English
-  flag: 🇺🇸
-es: 
-  name: Español
-  flag: 🇪🇸
+  - code: en
+    name: English
+    flag: 🇺🇸
+  - code: es
+    name: Español
+    flag: 🇪🇸

@@ -26,7 +26,7 @@
         <h1>Pick language:</h1>
         <ul>
             {% for lang in site.data.languages.table %}
-            <li><a href="{{ lang }}">{{ site.data.languages[lang].flag }} {{ site.data.languages[lang].name }}</a></li>
+            <li><a href="{{ lang.code }}">{{ lang.flag }} {{ lang.name }}</a></li>
             {% endfor %}
         </ul>
     </div>

@@ -2,9 +2,9 @@
 {% assign i = 0 %}
 {% for lang in site.data.languages.table %}
 {% assign i = i | plus: 1 %}
-    "{{ lang }}": {
-        "clickHere": "{{ site.data.locales.default[lang].clickHere }}",
-        "viewInLang": "{{ site.data.locales.default[lang].viewInLang }}"
+    "{{ lang.code }}": {
+        "clickHere": "{{ site.data.locales.default[lang.code].clickHere }}",
+        "viewInLang": "{{ site.data.locales.default[lang.code].viewInLang }}"
     {% if i == site.data.languages.table.size %}
     }
     {% else %}
