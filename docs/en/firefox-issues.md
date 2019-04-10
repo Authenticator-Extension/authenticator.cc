@@ -1,8 +1,8 @@
 ---
 title: Firefox Issues
+stub: firefox-issues
 lang: en
 ver: 2
-stub: firefox-issues
 ---
 
 {% include warning.html class="danger" message="Reinstalling Authenticator with your storage location set to 'local' will cause data loss." %}
