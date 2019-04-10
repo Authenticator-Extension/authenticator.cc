@@ -1,26 +1,26 @@
 ---
-title: Backing up in Edge
-stub: edge-backup
-lang: en
-ver: 1
+title:
+stub:
+lang:
+ver:
 ---
-1. Open Authenticator, right click, and choose "Inspect Element"
+1. 
 
-![step1](/assets/edge-backup-screenshots/step1.PNG)
+![]()
 
-2. Go to the "Console" tab at the top of the new window
-3. Paste this into the console and hit enter
+2. 
+3. 
 
 ```javascript
-browser.storage.local.get(d=>console.log(JSON.stringify(d,null,2)))
+
 ```
 
-![step3](/assets/edge-backup-screenshots/step3.PNG)
+![]()
 
-4. Copy the result to notepad
+4. 
 
-![step4](/assets/edge-backup-screenshots/step4.PNG)
+![]()
 
-5. Save as a file ending in `.json`
+5. 
 
-![step5](/assets/edge-backup-screenshots/step5.PNG)
+![]()
