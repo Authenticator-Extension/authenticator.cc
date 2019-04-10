@@ -1,0 +1,34 @@
+---
+sections:
+  - 
+    title: Browser Pages
+    ver: 1
+    docs:
+      - 
+        title: Chrome
+        stub: chrome-issues
+      - 
+        title: Firefox
+        stub: firefox-issues
+      - 
+        title: Edge
+        stub: edge-issues
+  - 
+    title: Additional Info
+    ver: 1
+    docs:
+      - 
+        title: Lost Codes
+        stub: lost-codes
+      - 
+        title: Account Types
+        stub: account-types
+      - 
+        title: Getting Debugging Information
+        stub: debug-info
+      - 
+        title: Standard Backup Format
+        stub: otp-backup
+      - 
+        title: Policy Configuration
+        stub: policy-config
