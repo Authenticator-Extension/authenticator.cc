@@ -1,6 +1,5 @@
 sections:
   - title: Browser Pages
-    ver: 1
     docs:
       - title: Chrome
         stub: chrome-issues
@@ -9,7 +8,6 @@ sections:
       - title: Edge
         stub: edge-issues
   - title: Additional Info
-    ver: 1
     docs:
       - title: Lost Codes
         stub: lost-codes
