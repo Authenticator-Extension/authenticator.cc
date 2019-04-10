@@ -1,7 +1,6 @@
 ---
 title: Chrome Issues
 stub: chrome-issues
-canonical_url: 'https://authenticator.cc/docs/en/chrome-issues/'
 lang: en
 ver: 1
 ---

@@ -1,7 +1,6 @@
 ---
 title: Backing up in Edge
 stub: edge-backup
-canonical_url: 'https://authenticator.cc/docs/en/edge-backup/'
 lang: en
 ver: 1
 ---

@@ -22,7 +22,6 @@
 			"---",
 			"title: $1",
 			"stub: $2",
-			"canonical_url: 'https://authenticator.cc/docs/en/$3/'",
 			"lang: en",
 			"ver: 1",
 			"---",

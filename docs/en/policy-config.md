@@ -1,7 +1,6 @@
 ---
 title: Policy Configuration
 stub: policy-config
-canonical_url: 'https://authenticator.cc/docs/en/policy-config/'
 lang: en
 ver: 1
 ---

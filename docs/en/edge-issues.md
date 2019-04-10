@@ -1,7 +1,6 @@
 ---
 title: Edge Issues
 stub: edge-issues
-canonical_url: 'https://authenticator.cc/docs/en/edge-issues/'
 lang: en
 ver: 1
 ---

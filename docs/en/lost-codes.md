@@ -1,7 +1,6 @@
 ---
 title: Lost Codes
 stub: lost-codes
-canonical_url: 'https://authenticator.cc/docs/en/lost-codes/'
 lang: en
 ver: 1
 ---

@@ -1,7 +1,6 @@
 ---
 title: Standard Backup Format Developer Info
 stub: otp-backup-developer
-canonical_url: 'https://authenticator.cc/docs/en/otp-backup-developer/'
 lang: en
 ver: 1
 ---

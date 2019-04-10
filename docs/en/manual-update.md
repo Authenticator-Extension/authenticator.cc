@@ -1,7 +1,6 @@
 ---
 title: Manually Updating
 stub: manual-update
-canonical_url: 'https://authenticator.cc/docs/en/manual-update/'
 lang: en
 ver: 1
 ---

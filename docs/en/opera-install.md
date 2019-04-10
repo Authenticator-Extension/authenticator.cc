@@ -1,7 +1,6 @@
 ---
 title: Install in Opera
 stub: opera-install
-canonical_url: 'https://authenticator.cc/docs/en/opera-install/'
 lang: en
 ver: 1
 ---

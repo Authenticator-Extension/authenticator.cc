@@ -9,6 +9,7 @@
 1. Add to `_data/locales/languages.yml`
 2. Make sure `_data/locales/default/xx.json` is fully translated
 3. Make sure `_data/locales/sidebar/xx.yml` exists
+4. Copy pages and change front matter for `lang`
 
 #### Making alert box
 
@@ -26,7 +27,6 @@ Normal page:
 ---
 title: [Title]
 stub: [File name]
-canonical_url: 'https://authenticator.cc/docs/en/[File name]/'
 lang: en
 ver: 1
 ---
