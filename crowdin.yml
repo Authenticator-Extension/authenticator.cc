@@ -1,0 +1,3 @@
+files:
+  - source: _data/locales/*/en.*
+    translation: '%original_path%/%two_letters_code%.%file_extension%'
