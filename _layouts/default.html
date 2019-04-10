@@ -19,16 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">
-            <img src="/assets/logo/logo.svg" width="30" height="30" class="d-inline-block align-top">
-            {{ site.title }}
-        </a>
-        <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="https://github.com/Authenticator-Extension">GitHub</a>
-        </div>
-    </nav>
-    <br>
+    {% include nav.html %}
     <div class="container">
         <div class="row">
             {% if page.stub %}
@@ -69,26 +60,7 @@
             <div class="col-8">
                 <h1>{{ page.title }}</h1>
                 <hr>
-                <!-- Outdated translatons notice -->
-                {% if page.ver %}
-                {% assign enPage=site.pages | where:"stub", page.stub | where:"lang", "en" | first %}
-                {% if page.ver < enPage.ver %}
-                <div class="alert alert-warning" role="alert">
-                    <h4 class="alert-heading">{{ i18n.warning }}</h4>
-                    <p>{{ i18n.outdated-warn-1 }} <a class="alert-link"
-                            href="{{ enPage.url | prepend: site.url }}">{{ i18n.outdated-warn-2 }}</a>
-                        {{ i18n.outdated-warn-3 }}</p>
-                    <hr>
-                    <p class="mb-0"><a class="alert-link" href="https://crowdin.com/project/authenticator-docs/">{{ i18n.translate-long }}</a>
-                    </p>
-                </div>
-                {% endif %}
-                {% endif %}
-                <!-- This page is avalible in {{ language }} -->
-                <div class="alert alert-primary" id="lang-change-div" style="display: none;" role="alert">
-                    <a id="lang-change-a" class="alert-link"></a> <span id="lang-change-text"></span>
-                </div>
-                <!-- -->
+                {% include lang-messages.html %}
                 {{ content }}
                 <hr>
                 <!-- Footer -->

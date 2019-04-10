@@ -9,7 +9,9 @@
 1. Add to `_data/locales/languages.yml`
 2. Make sure `_data/locales/default/xx.json` is fully translated
 3. Make sure `_data/locales/sidebar/xx.yml` exists
-4. Copy pages and change front matter for `lang`
+4. Copy `index.md` and change front matter for `lang`
+
+Note that untranslated pages should not exist. If a page is untranslated the UI will defualt to the english page (unless linked to).
 
 #### Making alert box
 
