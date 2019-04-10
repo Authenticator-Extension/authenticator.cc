@@ -28,8 +28,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const langChangeLink = document.getElementById("lang-change-a");
     const langChangeText = document.getElementById("lang-change-text");
     const strings = JSON.parse(get(localeURI));
+    const responseCode = head(
+      window.location.href.replace(`/${currentLanguage}/`, `/${userLanguage}/`)
+    );
 
-    if (strings[userLanguage].viewInLang && strings[userLanguage].clickHere) {
+    if (
+      strings[userLanguage].viewInLang &&
+      strings[userLanguage].clickHere &&
+      responseCode < 400
+    ) {
       langChangeLink.href = window.location.pathname.replace(
         `/${currentLanguage}/`,
         `/${userLanguage}/`
@@ -38,8 +45,12 @@ document.addEventListener("DOMContentLoaded", () => {
       langChangeText.innerText = strings[userLanguage].viewInLang;
       langChangeDiv.style = null;
     } else {
-      console.log("Strings not found for " + userLanguage);
-      console.log("Page is " + currentLanguage);
+      if (responseCode < 400) {
+        console.log("Target page not found");
+      } else {
+        console.log("Strings not found for " + userLanguage);
+        console.log("Page is " + currentLanguage);
+      }
     }
   } else {
     console.error(`ul: ${userLanguage} cl: ${currentLanguage}`);
@@ -51,4 +62,11 @@ function get(url) {
   xhr.open("GET", url, false);
   xhr.send();
   return xhr.responseText;
+}
+
+function head(url) {
+  const xhr = new XMLHttpRequest();
+  xhr.open("HEAD", url, false);
+  xhr.send();
+  return xhr.status;
 }
