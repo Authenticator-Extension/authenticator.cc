@@ -1,9 +1,0 @@
-sections:
-  - title: Section
-    ver: 0
-    docs:
-      - title: Test (en Espanol)
-        stub: test
-      - title: Firefox Issues (en Espanol)
-        stub: firefox-issues
-        

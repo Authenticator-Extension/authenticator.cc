@@ -2,6 +2,3 @@ table:
   - code: en
     name: English
     flag: 🇺🇸
-  - code: es
-    name: Español
-    flag: 🇪🇸
