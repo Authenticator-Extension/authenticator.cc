@@ -23,7 +23,7 @@ Authenticator may store your account name, secret key, account issuer, and other
 
 ### Managing Your Data
 
-You can download a copy of your data using the `Export / Import` menu's `Download Backup` button. Currently, due to a bug in Edge, it is not possible to use the `Download Backup` button; in the meantime please follow these instructions to get your data: [[Backing up in Edge]]. You can delete your data by pressing the pencil in the top-right corner and clicking the red minus next to the entry you want to delete or by uninstalling the extension. You can add a password to encrypt your data in the `Security` menu. 
+You can download a copy of your data using the `Export / Import` menu's `Download Backup` button. Currently, due to a bug in Edge, it is not possible to use the `Download Backup` button; in the meantime please follow these instructions to get your data: [Backing up in Edge](edge-backup). You can delete your data by pressing the pencil in the top-right corner and clicking the red minus next to the entry you want to delete or by uninstalling the extension. You can add a password to encrypt your data in the `Security` menu. 
 
 ### Contact
 
