@@ -2,3 +2,6 @@ table:
   - code: en
     name: English
     flag: 🇺🇸
+  - code: zh_CN
+    name: 中文 (简体)
+    flag: 🇨🇳
