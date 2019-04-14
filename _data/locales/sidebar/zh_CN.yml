@@ -5,20 +5,28 @@ sections:
     docs:
       - 
         title: 谷歌浏览器
+        stub: chrome-issues
       - 
         title: 火狐浏览器
+        stub: firefox-issues
       - 
         title: Edge浏览器
+        stub: edge-issues
   - 
     title: 附加信息
     docs:
       - 
         title: 账户遗失
+        stub: lost-codes
       - 
         title: 账户类型
+        stub: account-types
       - 
         title: 获取调试信息
+        stub: debug-info
       - 
         title: 标准备份格式
+        stub: otp-backup
       - 
         title: 策略配置
+        stub: policy-config
