@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const currentLanguage = document.documentElement.lang;
   const localeURI = "/docs/strings";
 
-  switch (userLanguage) {
+  switch (userLanguage.toLowerCase()) {
     case "zh-cn":
       userLanguage = "zh_CN";
       break;

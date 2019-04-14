@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en-US' }}">
 
+{% assign i18n = site.data.locales.default[page.lang] | default: site.data.locales.default.en %}
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -57,8 +59,7 @@
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 {% for item in pages %}
                 {% assign lang = site.data.languages.table | where: "code", item.lang | first %}
-                <a href="{{ site.base-url }}{{ item.url }}"
-                    class="dropdown-item">{{ lang.flag }}
+                <a href="{{ site.base-url }}{{ item.url }}" class="dropdown-item">{{ lang.flag }}
                     {{ lang.name }}</a>
                 {% endfor %}
             </div>
