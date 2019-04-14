@@ -1,10 +1,12 @@
 ---
-title:
-stub:
-lang:
-ver:
+title: Firefox Issues
+stub: firefox-issues
+lang: en
+ver: 2
 ---
-### 
+{% include warning.html class="danger" message="Reinstalling Authenticator with your storage location set to 'local' will cause data loss." %}
+
+### Known Issues
 
 - 存储API会发生变化，这可能会对身份验证器带来问题。 点击[此处](https://blog.mozilla.org/addons/2018/08/03/new-backend-for-storage-local-api/)进一步了解。
 
