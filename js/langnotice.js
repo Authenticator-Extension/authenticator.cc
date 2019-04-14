@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       userLanguage = "pt_BR";
       break;
     default:
-      userLanguage = userLanguage.substring(0, currentLanguage.length);
+      userLanguage = userLanguage.substring(0, 2);
       break;
   }
 
