@@ -4,6 +4,7 @@ stub: edge-backup
 lang: en
 ver: 1
 ---
+
 1. Open Authenticator, right click, and choose "Inspect Element"
 
 ![step1](/assets/edge-backup-screenshots/step1.PNG)
