@@ -4,6 +4,7 @@ stub: otp-backup-developer
 lang: en
 ver: 1
 ---
+
 Backups are just text files with one otpauth URI per line. Documentation on otpauth URIs are available [here](https://github.com/google/google-authenticator/wiki/Key-Uri-Format). For example, a backup could look like this:
 
     otpauth://totp/example.com?secret=FLIQ7AABIXF2DBUYE7VYAV2T7232KVYB
