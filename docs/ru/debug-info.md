@@ -4,6 +4,7 @@ stub: debug-info
 lang: en
 ver: 1
 ---
+
 Follow these steps to report detailed debugging information.
 
 - [Chrome](#chrome)
