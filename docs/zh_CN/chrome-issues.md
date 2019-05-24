@@ -4,6 +4,7 @@ stub: chrome-issues
 lang: zh_CN
 ver: 1
 ---
+
 {% include warning.html class="danger" message="
 
 #### 重新安装身份验证器会清空你的数据。 不要尝试通过重装扩展来解决问题
