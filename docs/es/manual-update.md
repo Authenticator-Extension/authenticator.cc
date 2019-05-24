@@ -4,6 +4,7 @@ stub: manual-update
 lang: en
 ver: 1
 ---
+
 ## Chrome
 
 1. Go to `chrome://extensions`
