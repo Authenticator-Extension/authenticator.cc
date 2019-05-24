@@ -4,6 +4,7 @@ stub: lost-codes
 lang: en
 ver: 1
 ---
+
 Most of the time, losing your secrets doesn't mean you will lose your account forever. Here are a few steps to take to get your accounts back:
 
 - Websites usually give a recovery code to you when you enable 2FA on your account. Use your recovery code to get access to your account.
