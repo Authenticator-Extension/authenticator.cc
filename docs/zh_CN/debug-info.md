@@ -4,6 +4,7 @@ stub: debug-info
 lang: zh_CN
 ver: 1
 ---
+
 按照以下步骤来报告详细调试信息。
 
 - [谷歌浏览器](#chrome)
