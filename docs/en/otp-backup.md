@@ -9,7 +9,8 @@ Some 2FA applications support interoperable backups. In other words, if you make
 
 | Application | Version | Notes |
 | ----------- | ------- | ----- |
-| [Authenticator Extension](https://authenticator.cc) | v5.3.0 | Encrypted backups not supported |
+| [Authenticator Extension](https://authenticator.cc) | v5.3.0+ | Encrypted backups not supported |
+| [FreeOTP+](https://github.com/helloworld1/FreeOTPPlus) | 1.3+ | |
 {: .table .table-striped}
 
 Planned Support:
