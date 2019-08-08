@@ -1,5 +1,6 @@
 ---
 title: Google Drive Integration Privacy
+stub: drive-privacy
 layout: no-sidebar
 lang: en
 ---

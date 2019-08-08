@@ -5,17 +5,22 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% assign pages=site.pages | where:"stub", page.stub | sort: 'lang' %}
     {% if pages.size > 1 %}
     {% for item in pages %}
-    <link rel="alternate" hreflang="{{item.lang}}" href="{{ site.base-url }}{{ item.url }}" />
+    <link rel="alternate"
+        hreflang="{{item.lang}}"
+        href="{{ site.base-url }}{{ item.url }}" />
     {% endfor %}
     {% endif %}
     {% seo %}
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -26,7 +31,8 @@
             <div class="col">
                 {% assign sidebar = site.data.locales.sidebar[page.lang].sections | default: site.data.locales.sidebar.en.sections %}
                 {% for section in sidebar %}
-                <div class="card" style="width: 18rem;">
+                <div class="card"
+                    style="width: 18rem;">
                     <div class="card-header">
                         {{ section.title }}
                     </div>
@@ -41,9 +47,11 @@
                         {% endif %}
 
                         {% if page.stub == doc.stub %}
-                        <a href="{{ doc.stub | prepend: base }}" class="list-group-item active">{{ doc.title }}</a>
+                        <a href="{{ doc.stub | prepend: base }}"
+                            class="list-group-item active">{{ doc.title }}</a>
                         {% else %}
-                        <a href="{{ doc.stub | prepend: base }}" class="list-group-item">{{ doc.title }}
+                        <a href="{{ doc.stub | prepend: base }}"
+                            class="list-group-item">{{ doc.title }}
                             {% unless translatedPage.size == 1 %}
                             <span class="badge badge-secondary">{{ i18n.unlocalized }}</span>
                             {% endunless %}
@@ -68,11 +76,16 @@
                 {% if pages.size > 1 %}
                 <div class="dropdown d-inline">
                     {% assign currentLang = site.data.languages.table | where: "code", page.lang | first %}
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
                         {{ currentLang.flag }} {{ currentLang.name }}
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <div class="dropdown-menu"
+                        aria-labelledby="dropdownMenuLink">
                         {% for item in pages %}
                         {% assign lang = site.data.languages.table | where: "code", item.lang | first %}
                         <a href="{{ site.base-url }}{{ item.url }}"
@@ -83,9 +96,12 @@
                 </div>
                 {% endif %}
                 <div class="float-right">
-                    <a href="https://crowdin.com/project/authenticator-docs/" type="button" class="btn btn-secondary">{{ i18n.translate }}</a>
+                    <a href="https://crowdin.com/project/authenticator-docs/"
+                        type="button"
+                        class="btn btn-secondary">{{ i18n.translate }}</a>
                     <a href="{{ page.path | prepend: 'https://github.com/Authenticator-Extension/authenticator.cc/tree/master/' }}"
-                        type="button" class="btn btn-secondary">{{ i18n.edit }}</a>
+                        type="button"
+                        class="btn btn-secondary">{{ i18n.edit }}</a>
                 </div>
             </div>
         </div>
@@ -104,5 +120,11 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
+
+<style>
+    img {
+        max-width: 100%;
+    }
+</style>
 
 </html>
