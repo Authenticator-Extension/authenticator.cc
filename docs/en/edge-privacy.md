@@ -10,20 +10,16 @@ ver: 1
 
 ---
 
-### Summary
-
-- Your data stays on your device
-- You are responsible for your data
-- We don't ever see or have control over your data
-- Authenticator does not transmit your data to any third parties
-
 ### Data Storage and Use
 
-Authenticator may store your account name, secret key, account issuer, and other necessary information for the sole purpose of generating and displaying two factor authentication codes. Authenticator relies on built-in storage services provided by Edge. We claim no responsibility over your data when you use Authenticator. Technical documentation on how we store your data is available [here](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/local). Your data stays on your device and is not transmitted to us nor any third parties.
+- Authenticator only collects data you provide, such as when you scan a QR code to add an account or change a setting.
+- Authenticator stores all data locally using the storage services provided by your browser. Technical information on how Authenticator stores account data is available [here](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage).
+- If you have signed into Edge your account data may be synced with your Microsoft account. You can disable this by either going to the `Storage & Backup` menu and changing the `Storage Location` setting to `local` or by disabling extension data sync in Edge. Consult the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-US/privacystatement) for more information.
+- If you login to any 3rd party service under the Storage & Backup menu Authenticator will begin to routinely upload your account data to that service. You can stop this by going to the Storage & Backup menu, clicking the name of the service you signed into, and clicking Logout. Consult the privacy policies of these services for information about how they handle your data.
 
 ### Managing Your Data
 
-You can download a copy of your data using the `Export / Import` menu's `Download Backup` button. Currently, due to a bug in Edge, it is not possible to use the `Download Backup` button; in the meantime please follow these instructions to get your data: [Backing up in Edge](edge-backup). You can delete your data by pressing the pencil in the top-right corner and clicking the red minus next to the entry you want to delete or by uninstalling the extension. You can add a password to encrypt your data in the `Security` menu. 
+You can download a copy of your data using the `Export / Import` menu's `Download Backup` button. You can delete your data by pressing the pencil in the top-right corner and clicking the red minus next to the entry you want to delete or by uninstalling the extension. You can add a password to encrypt your data in the `Security` menu. 
 
 ### Contact
 
