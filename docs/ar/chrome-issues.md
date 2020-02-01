@@ -7,7 +7,7 @@ ver: 1
 
 {% include warning.html class="danger" message="
 
-#### Test. magic
+#### REINSTALLING AUTHENTICATOR WILL CLEAR YOUR DATA. NEVER REINSTALL AUTHENTICATOR TO FIX ANY ISSUES
 
 " %}
 
