@@ -25,6 +25,14 @@ function setButtons() {
             link2.innerText = "Add to Firefox";
             link2.href = "https://addons.mozilla.org/en-US/firefox/addon/auth-helper?src=external-website";
             break;
+        case "Edg":
+            link0.innerText = "Add to Edge";
+            link0.href = "https://microsoftedge.microsoft.com/addons/detail/ocglkepbibnalbgmbachknglpdipeoio";
+            link1.innerText = "Add to Chrome";
+            link1.href = "https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai";
+            link2.innerText = "Add to Firefox";
+            link2.href = "https://addons.mozilla.org/en-US/firefox/addon/auth-helper?src=external-website";
+            break;
         case "Opera":
             link0.href = "https://authenticator.cc/docs/en/opera-install";
             break;
@@ -38,6 +46,8 @@ function getBrowser() {
         return "Firefox";
     } else if (navigator.userAgent.indexOf("Edge") !== -1) {
         return "Edge";
+    } else if (navigator.userAgent.indexOf("Edg") !== -1) {
+        return "Edg";
     } else if (navigator.userAgent.indexOf("OPR") !== -1 || navigator.userAgent.indexOf("Opera") !== -1) { 
         return "Opera";
     } else {
