@@ -5,7 +5,8 @@
 </head>
 <body>
     <script>
-        window.location.href.replace("https://authenticator.cc/oauth-edge/", "https://behjingngbhadgedgfijdpliopmhfcfg.chromiumapp.org/")
+        let authInfo = window.location.search;
+        window.location.replace("https://behjingngbhadgedgfijdpliopmhfcfg.chromiumapp.org/" + authInfo);
     </script>
     <p>Signed in successfully! Redirecting...</p>
 </body>
