@@ -1,5 +1,5 @@
 ---
-title: Backing up in Edge
+title: Backing up in Old Edge
 stub: edge-backup
 lang: en
 ver: 1
