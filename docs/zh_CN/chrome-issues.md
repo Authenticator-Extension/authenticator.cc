@@ -1,16 +1,16 @@
 ---
-title: 谷歌浏览器常见问题
+title: Chrome Issues
 stub: chrome-issues
-lang: zh_CN
+lang: en
 ver: 1
 ---
 
 {% include warning.html class="danger" message="
 
-#### 重新安装身份验证器会清空你的数据。 不要尝试通过重装扩展来解决问题
+#### REINSTALLING AUTHENTICATOR WILL CLEAR YOUR DATA. NEVER REINSTALL AUTHENTICATOR TO FIX ANY ISSUES
 
 " %}
 
-- 忘记密码或者丢失了没有备份的密钥？ 参见[账户遗失](lost-codes)
-- 想要帮助翻译或者对翻译有任何疑问？ [查看我们的Crowdin页面](https://crowdin.com/project/authenticator-firefox)
-- 遇到bug或者想要新的功能？ [填写表单](https://github.com/Authenticator-Extension/Authenticator/issues/new/choose)或者[发布带有#AuthenticatorFeedback的推特](https://twitter.com/intent/tweet?hashtags=AuthenticatorFeedback)
+- Can't remember your password or lost your secrets and don't have a backup? See [Lost Codes](lost-codes)
+- Want to help translate or have an issue with translation? [Check our Crowdin page](https://crowdin.com/project/authenticator-firefox)
+- Have a bug or feature request? [File an issue](https://github.com/Authenticator-Extension/Authenticator/issues/new/choose) or [Tweet with #AuthenticatorFeedback](https://twitter.com/intent/tweet?hashtags=AuthenticatorFeedback)
