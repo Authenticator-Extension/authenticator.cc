@@ -1,54 +1,54 @@
 ---
-title: 获取调试信息
+title: Getting Debugging Information
 stub: debug-info
-lang: zh_CN
+lang: en
 ver: 1
 ---
 
-按照以下步骤来报告详细调试信息。
+Follow these steps to report detailed debugging information.
 
-- [谷歌浏览器](#chrome)
-- [火狐浏览器](#firefox)
+- [Chrome](#chrome)
+- [Firefox](#firefox)
 
 * * *
 
-## 谷歌浏览器
+## Chrome
 
-1. 打开身份验证器
-2. 点击右键选择“审查元素”
+1. Open Authenticator
+2. Right click Authenticator and click "Inspect"
 
 ![step2](/assets/debugging-screenshots/chrome/step2.PNG)
 
-3. 打开“控制台”标签
+3. Go to the "Console" tab
 
 ![step5](/assets/debugging-screenshots/chrome/step3.PNG)
 
-4. 复制所有信息并粘贴到issue description中
+4. Copy and paste any messages into the issue description
 
 ![step4](/assets/debugging-screenshots/chrome/step4.PNG)
 
 * * *
 
-## 火狐浏览器
+## Firefox
 
-1. 打开`about:debugging`
-2. 勾选“启用附加组件调试”
+1. Go to `about:debugging`
+2. Check the box that says "Enable add-on debugging"
 
 ![step2](/assets/debugging-screenshots/firefox/step2.PNG)
 
-3. 点击身份验证器下方的“调试”链接 
+3. Click the link that says "Debug" under Authenticator 
 
 ![step3](/assets/debugging-screenshots/firefox/step3.PNG)
 
-4. 点击“确定”
+4. Click "Ok"
 
 ![step4](/assets/debugging-screenshots/firefox/step4.PNG)
 
-5. 打开“控制台”标签
+5. Make sure that you are on the console tab
 
 ![step5](/assets/debugging-screenshots/firefox/step5.PNG)
 
-6. 再次打开身份验证器
-7. 复制所有信息并粘贴到issue description中
+6. Open Authenticator again
+7. Copy and paste any messages into the issue description
 
 ![step7](/assets/debugging-screenshots/firefox/step7.PNG)
