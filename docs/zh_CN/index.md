@@ -1,7 +1,7 @@
 ---
 title: Index
 stub: index
-lang: zh_CN
+lang: en
 layout: docs-index
 ---
 
