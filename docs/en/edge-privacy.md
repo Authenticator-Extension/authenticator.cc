@@ -6,7 +6,7 @@ lang: en
 ver: 1
 ---
 
-### This document only applies to the Edge version of Authenticator.
+### This document only applies to the Edge version of Authenticator
 
 ---
 
@@ -19,7 +19,7 @@ ver: 1
 
 ### Managing Your Data
 
-You can download a copy of your data using the `Export / Import` menu's `Download Backup` button. You can delete your data by pressing the pencil in the top-right corner and clicking the red minus next to the entry you want to delete or by uninstalling the extension. You can add a password to encrypt your data in the `Security` menu. 
+You can download a copy of your data using the `Export / Import` menu's `Download Backup` button. You can delete your data by pressing the pencil in the top-right corner and clicking the red minus next to the entry you want to delete or by uninstalling the extension. You can add a password to encrypt your data in the `Security` menu.
 
 ### Contact
 

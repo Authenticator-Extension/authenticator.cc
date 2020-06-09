@@ -12,3 +12,6 @@ exclude:
   - README.md
   - .gitignore
   - .vscode
+  
+include:
+  - ".well-known"
