@@ -11,7 +11,7 @@ Some 2FA applications support interoperable backups. In other words, if you make
 | ----------- | ------- | ----- |
 | [Authenticator Extension](https://authenticator.cc) | v5.3.0+ | Encrypted backups not supported |
 | [FreeOTP+](https://github.com/helloworld1/FreeOTPPlus) | 1.3+ | |
-| [Aegis](https://getaegis.app/) | v1.2+ | Use "Plain text" option |
+| [Aegis](https://getaegis.app/) | v1.2+ | Import only, use "Plain text" option |
 {: .table .table-striped}
 
 Planned Support:
