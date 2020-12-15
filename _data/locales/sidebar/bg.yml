@@ -1,6 +1,18 @@
 ---
 sections:
   - 
+    title: Overview
+    docs:
+      - 
+        title: What is Authenticator Extension
+        stub: overview
+  - 
+    title: Quickstarts
+    docs:
+      - 
+        title: Add your first account
+        stub: quickstart
+  - 
     title: Browser Pages
     docs:
       - 
