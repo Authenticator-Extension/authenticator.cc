@@ -18,12 +18,11 @@ When you first install Authenticator Extension in Chrome, you should pin its ico
 ## Add a QR Code
 
 1. Click Authenticator Extension's icon in your browser
-2. Click the scan icon at the top right corner of the window.
 
+2. Click the scan icon at the top right corner of the window.
 ![click qr button](/assets/quickstart/add-qr.png)
 
 3. Click and drag to draw a square that completely covers the QR code
-
 <video src="/assets/quickstart/qr-scan.webm" controls></video>
 
 4. After the new account is added, you will see a new entry in the window.
@@ -33,20 +32,17 @@ The 6-digit number is your current one-time password, circle at bottom right cor
 ## Add an Account Manually
 
 1. Click Authenticator Extension's icon in your browser
-2. Click the pencil icon at the top right corner of the window.
 
+2. Click the pencil icon at the top right corner of the window.
 ![manual entry](/assets/quickstart/click-edit.png)
 
 3. Click the plus button at the top right corner of the window.
 Select **Manual Entry**.
-
 ![manual entry](/assets/quickstart/click-add.png)
 
 4. Input the name of the website that this account is associated with in **Issuer** field, the account secret given to you in the **Secret** field, and finally click **Ok**.
-
 ![add account](/assets/quickstart/add-account.png)
 
 5. After the new account is added, you will see a new entry in the window.
-
 ![entry](/assets/quickstart/example-entry.png)
 
