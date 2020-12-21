@@ -20,10 +20,12 @@ When you first install Authenticator Extension in Chrome, you should pin its ico
 1. Click Authenticator Extension's icon in your browser
 
 2. Click the scan icon at the top right corner of the window.
-![click qr button](/assets/quickstart/add-qr.png)
+
+    ![click qr button](/assets/quickstart/add-qr.png)
 
 3. Click and drag to draw a square that completely covers the QR code
-<video src="/assets/quickstart/qr-scan.webm" controls></video>
+
+    <video src="/assets/quickstart/qr-scan.webm" autoplay loop></video>
 
 4. After the new account is added, you will see a new entry in the window.
 
