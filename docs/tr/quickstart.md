@@ -31,7 +31,7 @@ The 6-digit number is your current one-time password, circle at bottom right cor
 
 1. Click Authenticator Extension's icon in your browser
 
-2. Click the pencil icon at the top right corner of the window. ![manual entry](/assets/quickstart/click-edit.png)
+2. Click the pencil icon at the top right corner of the window. ![el ile giriş](/assets/quickstart/click-edit.png)
 
 3. Click the plus button at the top right corner of the window. Select **Manual Entry**. ![manual entry](/assets/quickstart/click-add.png)
 
