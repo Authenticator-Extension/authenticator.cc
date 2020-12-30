@@ -1,0 +1,44 @@
+---
+sections:
+  - 
+    title: Overview
+    docs:
+      - 
+        title: What is Authenticator Extension?
+        stub: overview
+  - 
+    title: Quickstarts
+    docs:
+      - 
+        title: Add Your First Account
+        stub: quickstart
+  - 
+    title: Browser Pages
+    docs:
+      - 
+        title: Chrome
+        stub: chrome-issues
+      - 
+        title: Firefox
+        stub: firefox-issues
+      - 
+        title: Edge
+        stub: edge-issues
+  - 
+    title: Additional Info
+    docs:
+      - 
+        title: Lost Codes
+        stub: lost-codes
+      - 
+        title: Account Types
+        stub: account-types
+      - 
+        title: Getting Debugging Information
+        stub: debug-info
+      - 
+        title: Standard Backup Format
+        stub: otp-backup
+      - 
+        title: Policy Configuration
+        stub: policy-config
