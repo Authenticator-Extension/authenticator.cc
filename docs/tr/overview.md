@@ -1,6 +1,6 @@
 ---
 title: What is Authenticator Extension?
-stub: overview
+stub: genel görünüm
 lang: en
 ver: 1
 ---
@@ -13,7 +13,7 @@ In other words, Authenticator Extension can serve as a drop-in replacement for a
 
 * Add accounts by scanning QR codes
 * Encrypt data with a password
-* Sync data between browsers
+* Tarayıcılar arasında verileri eşitleyin
 * Backup data to cloud services or export data to a file
 * Akıllı filtreleme ve arama
 * Battle.net ve Steam desteği
