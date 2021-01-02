@@ -11,7 +11,7 @@ sections:
     docs:
       - 
         title: İlk Hesabınızı Ekleyin
-        stub: quickstart
+        stub: hızlı başlangıç
   - 
     title: Tarayıcı Sayfaları
     docs:
@@ -40,5 +40,5 @@ sections:
         title: Standard Backup Format
         stub: otp-backup
       - 
-        title: Policy Configuration
-        stub: policy-config
+        title: Politika Yapılandırması
+        stub: politika-yapılandırması
