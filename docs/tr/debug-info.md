@@ -14,16 +14,16 @@ Follow these steps to report detailed debugging information.
 
 ## Chrome
 
-1. Open Authenticator
-2. Right click Authenticator and click "Inspect"
+1. Kimlik Doğrulayıcı'yı aç
+2. Kimlik Doğrulayıcı'ya sağ tıklayın ve "İncele" yi tıklayın
 
 ![step2](/assets/debugging-screenshots/chrome/step2.PNG)
 
-3. Go to the "Console" tab
+3. "Consol" sekmesine gidin
 
 ![step5](/assets/debugging-screenshots/chrome/step3.PNG)
 
-4. Copy and paste any messages into the issue description
+4. Tüm mesajları kopyalayıp sorun açıklamasına yapıştırın
 
 ![step4](/assets/debugging-screenshots/chrome/step4.PNG)
 
@@ -31,7 +31,7 @@ Follow these steps to report detailed debugging information.
 
 ## Firefox
 
-1. Go to `about:debugging`
+1. `about:debugging` sayfasına gidin
 2. Check the box that says "Enable add-on debugging"
 
 ![step2](/assets/debugging-screenshots/firefox/step2.PNG)
@@ -40,7 +40,7 @@ Follow these steps to report detailed debugging information.
 
 ![step3](/assets/debugging-screenshots/firefox/step3.PNG)
 
-4. Click "Ok"
+4. "Tamam" ı tıklayın
 
 ![step4](/assets/debugging-screenshots/firefox/step4.PNG)
 
