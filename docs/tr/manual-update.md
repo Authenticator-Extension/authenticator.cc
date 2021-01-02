@@ -7,7 +7,7 @@ ver: 1
 
 ## Chrome
 
-1. Go to `chrome://extensions`
+1. `chrome://extensions` sayfasına gidin
 
 2. Check the box labelled "Developer Mode" in the top right
 
@@ -17,10 +17,10 @@ ver: 1
 
 ## Firefox
 
-1. Go to `about:addons`
+1. `about:addons` sayfasına gidin
 
 2. Click the gear at the top right
 
-3. Click "Check for Updates"
+3. "Güncellemeleri Kontrol Et" i tıklayın
 
 ![firefox](/assets/update-screenshots/firefox.png)
