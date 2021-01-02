@@ -48,7 +48,7 @@ Follow these steps to report detailed debugging information.
 
 ![step5](/assets/debugging-screenshots/firefox/step5.PNG)
 
-6. Open Authenticator again
+6. Kimlik Doğrulayıcı'yı tekrar açın
 7. Copy and paste any messages into the issue description
 
 ![step7](/assets/debugging-screenshots/firefox/step7.PNG)
