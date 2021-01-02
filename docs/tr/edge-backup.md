@@ -1,11 +1,11 @@
 ---
-title: Backing up in Old Edge
+title: Eski Edge'de yedekleme
 stub: edge-backup
 lang: en
 ver: 1
 ---
 
-1. Open Authenticator, right click, and choose "Inspect Element"
+1. Kimlik Doğrulayıcı'yı açın, sağ tıklayın ve "Öğeyi İncele" yi seçin
 
 ![step1](/assets/edge-backup-screenshots/step1.PNG)
 
