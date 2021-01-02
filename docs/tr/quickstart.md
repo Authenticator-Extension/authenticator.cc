@@ -1,5 +1,5 @@
 ---
-title: Add Your First Account
+title: İlk Hesabınızı Ekleyin
 stub: hızlı başlangıç
 lang: en
 ver: 2
@@ -9,13 +9,13 @@ This quickstart explains how to add an example account to Authenticator Extensio
 
 ## Ön koşullar
 
-Install Authenticator Extension ([Chrome](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/auth-helper/), [Edge](https://microsoftedge.microsoft.com/addons/detail/ocglkepbibnalbgmbachknglpdipeoio))
+Kimlik Doğrulayıcı Uzantısını kurun ([Chrome](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/auth-helper/), [Edge](https://microsoftedge.microsoft.com/addons/detail/ocglkepbibnalbgmbachknglpdipeoio))
 
 When you first install Authenticator Extension in Chrome, you should pin its icon to the toolbar.
 
 ![araç çubuğuna sabitle](/assets/quickstart/pin-to-toolbar.png)
 
-## Add a QR Code
+## Kare Kodu ekleyin
 
 1. Click Authenticator Extension's icon in your browser
 
