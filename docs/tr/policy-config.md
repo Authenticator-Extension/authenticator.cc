@@ -5,7 +5,7 @@ lang: en
 ver: 1
 ---
 
-This page is for administrators. Supported settings are documented in [schema-chrome.json](https://github.com/Authenticator-Extension/Authenticator/blob/release/schema-chrome.json). More information is available below. Open an issue to request more policy controls.
+Bu sayfa yöneticiler içindir. Supported settings are documented in [schema-chrome.json](https://github.com/Authenticator-Extension/Authenticator/blob/release/schema-chrome.json). More information is available below. Open an issue to request more policy controls.
 
 #### Extension IDs
 
