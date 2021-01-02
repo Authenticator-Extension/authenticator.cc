@@ -15,5 +15,5 @@ In other words, Authenticator Extension can serve as a drop-in replacement for a
 * Encrypt data with a password
 * Sync data between browsers
 * Backup data to cloud services or export data to a file
-* Smart filtering and search
-* Battle.net and Steam support
+* Akıllı filtreleme ve arama
+* Battle.net ve Steam desteği
