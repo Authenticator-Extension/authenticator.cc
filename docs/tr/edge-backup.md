@@ -18,10 +18,10 @@ browser.storage.local.get(d=>console.log(JSON.stringify(d,null,2)))
 
 ![step3](/assets/edge-backup-screenshots/step3.PNG)
 
-4. Copy the result to notepad
+4. Sonucu not defterine kopyala
 
 ![step4](/assets/edge-backup-screenshots/step4.PNG)
 
-5. Save as a file ending in `.json`
+5. `.json` ile biten bir dosya olarak kaydedin
 
 ![step5](/assets/edge-backup-screenshots/step5.PNG)
