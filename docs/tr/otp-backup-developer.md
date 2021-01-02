@@ -14,9 +14,9 @@ Backups are just text files with one otpauth URI per line. Documentation on otpa
     otpauth://totp/Account%20with%20Period:example.com?secret=LJL6765YQRQQ533ACSI6YUXTLZYY7GBI&issuer=Account%20with%20Period&period=60
     
 
-Tips:
+İpuçları:
 
-- Remember that the issuer and account name cannot contain a colon (`:` or `%3A`) 
+- Yayınlayan kuruluş ve hesap adının iki nokta üst üste içeremeyeceğini unutmayın (`:` veya`%3A`) 
 - Save the file as `text/plain`
 
 If your application can import and export backups in this format please [raise an issue](https://github.com/Authenticator-Extension/authenticator.cc/issues/new) so we can put you on [the list](otp-backup).
