@@ -29,7 +29,7 @@ When you first install Authenticator Extension in Chrome, you should pin its ico
 
 4. After the new account is added, you will see a new entry in the window.
 
-The 6-digit number is your current one-time password, circle at bottom right corner tells you how much time left for the current password. If you want to add this account into a mobile app, you can click the QR icon at top right corner of the entry to show the QR code for this account.
+6 basamaklı sayı, geçerli tek kullanımlık şifrenizdir, sağ alt köşedeki daire geçerli şifre için ne kadar süre kaldığını söyler. If you want to add this account into a mobile app, you can click the QR icon at top right corner of the entry to show the QR code for this account.
 
 ## Add an Account Manually
 
@@ -37,9 +37,9 @@ The 6-digit number is your current one-time password, circle at bottom right cor
 
 2. Click the pencil icon at the top right corner of the window. ![el ile giriş](/assets/quickstart/click-edit.png)
 
-3. Click the plus button at the top right corner of the window. Select **Manual Entry**. ![manual entry](/assets/quickstart/click-add.png)
+3. Pencerenin sağ üst köşesindeki artı düğmesini tıklayın. **Manuel Giriş**'i seçin. ![el ile giriş](/assets/quickstart/click-add.png)
 
-4. Input the name of the website that this account is associated with in **Issuer** field, the account secret given to you in the **Secret** field, and finally click **Ok**. ![hesap ekle](/assets/quickstart/add-account.png)
+4. Bu hesabın ilişkili olduğu web sitesinin adını **Yayınlayan Kuruluş** alanına girin, **Gizli Anahtar** alanına size verilen gizli anahtarı girin ve son olarak **Tamam**'ı tıklayın. ![hesap ekle](/assets/quickstart/add-account.png)
 
 5. After the new account is added, you will see a new entry in the window. ![entry](/assets/quickstart/example-entry.png)
 
