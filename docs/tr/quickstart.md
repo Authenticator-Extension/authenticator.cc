@@ -39,7 +39,7 @@ The 6-digit number is your current one-time password, circle at bottom right cor
 
 3. Click the plus button at the top right corner of the window. Select **Manual Entry**. ![manual entry](/assets/quickstart/click-add.png)
 
-4. Input the name of the website that this account is associated with in **Issuer** field, the account secret given to you in the **Secret** field, and finally click **Ok**. ![add account](/assets/quickstart/add-account.png)
+4. Input the name of the website that this account is associated with in **Issuer** field, the account secret given to you in the **Secret** field, and finally click **Ok**. ![hesap ekle](/assets/quickstart/add-account.png)
 
 5. After the new account is added, you will see a new entry in the window. ![entry](/assets/quickstart/example-entry.png)
 
