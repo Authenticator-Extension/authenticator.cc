@@ -5,25 +5,25 @@ sections:
     docs:
       - 
         title: What is Authenticator Extension?
-        stub: overview
+        stub: genel görünüm
   - 
-    title: Quickstarts
+    title: Hızlı Başlangıç
     docs:
       - 
-        title: Add Your First Account
+        title: İlk Hesabınızı Ekleyin
         stub: quickstart
   - 
-    title: Browser Pages
+    title: Tarayıcı Sayfaları
     docs:
       - 
         title: Chrome
-        stub: chrome-issues
+        stub: chrome-sorunları
       - 
         title: Firefox
-        stub: firefox-issues
+        stub: firefox-sorunları
       - 
         title: Edge
-        stub: edge-issues
+        stub: edge-sorunları
   - 
     title: Additional Info
     docs:
