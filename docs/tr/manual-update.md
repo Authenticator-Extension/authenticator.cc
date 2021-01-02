@@ -11,7 +11,7 @@ ver: 1
 
 2. Check the box labelled "Developer Mode" in the top right
 
-3. Click "Update Extensions Now"
+3. "Uzantıları Şimdi Güncelle"yi tıklayın
 
 ![chrome](/assets/update-screenshots/chrome.png)
 
