@@ -17,6 +17,6 @@ Backups are just text files with one otpauth URI per line. Documentation on otpa
 İpuçları:
 
 - Yayınlayan kuruluş ve hesap adının iki nokta üst üste içeremeyeceğini unutmayın (`:` veya`%3A`) 
-- Save the file as `text/plain`
+- Dosyayı `düz metin` olarak kaydedin
 
 If your application can import and export backups in this format please [raise an issue](https://github.com/Authenticator-Extension/authenticator.cc/issues/new) so we can put you on [the list](otp-backup).
