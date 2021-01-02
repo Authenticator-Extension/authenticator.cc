@@ -1,5 +1,5 @@
 ---
-title: What is Authenticator Extension?
+title: Kimlik Doğrulayıcı Uzantısı nedir?
 stub: genel görünüm
 lang: en
 ver: 1
