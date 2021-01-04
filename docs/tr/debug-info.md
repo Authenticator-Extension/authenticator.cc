@@ -44,11 +44,11 @@ Ayrıntılı hata ayıklama bilgilerini bildirmek için aşağıdaki adımları 
 
 ![step4](/assets/debugging-screenshots/firefox/step4.PNG)
 
-5. Make sure that you are on the console tab
+5. Konsol sekmesinde olduğunuzdan emin olun
 
 ![step5](/assets/debugging-screenshots/firefox/step5.PNG)
 
 6. Kimlik Doğrulayıcı'yı tekrar açın
-7. Copy and paste any messages into the issue description
+7. Tüm mesajları kopyalayıp sorun açıklamasına yapıştırın
 
 ![step7](/assets/debugging-screenshots/firefox/step7.PNG)
