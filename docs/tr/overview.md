@@ -11,7 +11,7 @@ Başka bir deyişle, Kimlik Doğrulayıcı Uzantısı Google Authenticator gibi 
 
 ## Ana Özellikler
 
-* Add accounts by scanning QR codes
+* Karekodlarını tarayarak hesap ekleyin
 * Verileri bir parola ile şifreleyin
 * Tarayıcılar arasında verileri eşitleyin
 * Verileri bulut hizmetlerine yedekleyin veya verileri bir dosyaya aktarın
