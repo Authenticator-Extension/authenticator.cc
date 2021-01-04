@@ -12,5 +12,5 @@ ver: 1
 " %}
 
 - Parolanızı hatırlayamıyor veya gizli anahtarlarınızı kaybettiniz mi ve yedeğiniz yok mu? [Kayıp Kodlar](lost-codes)'a bakın
-- Want to help translate or have an issue with translation? [Crowdin sayfamızı kontrol edin](https://crowdin.com/project/authenticator-firefox)
-- Have a bug or feature request? [File an issue](https://github.com/Authenticator-Extension/Authenticator/issues/new/choose) or [Tweet with #AuthenticatorFeedback](https://twitter.com/intent/tweet?hashtags=AuthenticatorFeedback)
+- Çeviriye yardım etmek mi istiyorsunuz veya çeviriyle ilgili bir sorununuz mu var? [Crowdin sayfamızı kontrol edin](https://crowdin.com/project/authenticator-firefox)
+- Bir hata veya özellik talebiniz mi var? [File an issue](https://github.com/Authenticator-Extension/Authenticator/issues/new/choose) or [Tweet with #AuthenticatorFeedback](https://twitter.com/intent/tweet?hashtags=AuthenticatorFeedback)
