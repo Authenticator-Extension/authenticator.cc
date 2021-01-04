@@ -1,5 +1,5 @@
 ---
-title: Lost Codes
+title: Kayıp Kodlar
 stub: lost-codes
 lang: en
 ver: 1
