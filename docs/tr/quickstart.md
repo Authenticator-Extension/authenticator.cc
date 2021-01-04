@@ -15,7 +15,7 @@ Kimlik Doğrulayıcı Uzantısını Chrome'a ilk yüklediğinizde simgesini ara�
 
 ![araç çubuğuna sabitle](/assets/quickstart/pin-to-toolbar.png)
 
-## Kare Kodu ekleyin
+## Kare Kod ekleyin
 
 1. Tarayıcınızdaki Kimlik Doğrulayıcı Uzantının simgesini tıklayın
 
