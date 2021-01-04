@@ -1,11 +1,11 @@
 ---
-title: Getting Debugging Information
+title: Hata Ayıklama Bilgilerini Alma
 stub: debug-info
 lang: en
 ver: 1
 ---
 
-Follow these steps to report detailed debugging information.
+Ayrıntılı hata ayıklama bilgilerini bildirmek için aşağıdaki adımları izleyin.
 
 - [Chrome](#chrome)
 - [Firefox](#firefox)
