@@ -12,8 +12,8 @@ Başka bir deyişle, Kimlik Doğrulayıcı Uzantısı Google Authenticator gibi 
 ## Ana Özellikler
 
 * Add accounts by scanning QR codes
-* Encrypt data with a password
+* Verileri bir parola ile şifreleyin
 * Tarayıcılar arasında verileri eşitleyin
-* Backup data to cloud services or export data to a file
+* Verileri bulut hizmetlerine yedekleyin veya verileri bir dosyaya aktarın
 * Akıllı filtreleme ve arama
 * Battle.net ve Steam desteği
