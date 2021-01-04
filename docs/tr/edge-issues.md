@@ -11,6 +11,6 @@ ver: 2
 
 " %}
 
-- Can't remember your password or lost your secrets and don't have a backup? See [Lost Codes](lost-codes)
+- Parolanızı hatırlayamıyor veya gizli anahtarlarınızı kaybettiniz mi ve yedeğiniz yok mu? [Kayıp Kodlar](lost-codes)'a bakın
 - Çeviriye yardımcı olmak mı istiyorsunuz veya çeviri ile ilgili bir sorun mu yaşıyorsunuz? [Crowdin sayfamızı kontrol edin](https://crowdin.com/project/authenticator-firefox)
 - Bir hata veya özellik talebiniz mi var? [Sorun bildirin](https://github.com/Authenticator-Extension/Authenticator/issues/new/choose) veya [#AuthenticatorFeedback ile Tweet atın](https://twitter.com/intent/tweet?hashtags=AuthenticatorFeedback)
