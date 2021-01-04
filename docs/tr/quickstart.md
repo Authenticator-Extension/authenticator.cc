@@ -19,7 +19,7 @@ Kimlik Doğrulayıcı Uzantısını Chrome'a ilk yüklediğinizde simgesini ara�
 
 1. Tarayıcınızdaki Kimlik Doğrulayıcı Uzantının simgesini tıklayın
 
-2. Click the scan icon at the top right corner of the window.
+2. Pencerenin sağ üst köşesindeki tarama simgesine tıklayın.
 
     ![karekod butonuna tıklayın](/assets/quickstart/add-qr.png)
 
@@ -27,13 +27,13 @@ Kimlik Doğrulayıcı Uzantısını Chrome'a ilk yüklediğinizde simgesini ara�
 
     <video src="/assets/quickstart/qr-scan.webm" autoplay loop></video>
 
-4. After the new account is added, you will see a new entry in the window.
+4. Yeni hesap eklendikten sonra pencerede yeni bir giriş göreceksiniz.
 
-6 basamaklı sayı, geçerli tek kullanımlık şifrenizdir, sağ alt köşedeki daire geçerli şifre için ne kadar süre kaldığını söyler. If you want to add this account into a mobile app, you can click the QR icon at top right corner of the entry to show the QR code for this account.
+6 basamaklı sayı, geçerli tek kullanımlık şifrenizdir, sağ alt köşedeki daire geçerli şifre için ne kadar süre kaldığını söyler. Bu hesabı bir mobil uygulamaya eklemek istiyorsanız, bu hesabın karekodunu görmek için girişin sağ üst köşesindeki karekod simgesine tıklayabilirsiniz.
 
-## Add an Account Manually
+## Elle Hesap Ekleyin
 
-1. Click Authenticator Extension's icon in your browser
+1. Tarayıcınızdaki Kimlik Doğrulayıcı Uzantının simgesini tıklayın
 
 2. Pencerenin sağ üst köşesindeki kalem simgesini tıklayın. ![el ile giriş](/assets/quickstart/click-edit.png)
 
@@ -41,5 +41,5 @@ Kimlik Doğrulayıcı Uzantısını Chrome'a ilk yüklediğinizde simgesini ara�
 
 4. Bu hesabın ilişkili olduğu web sitesinin adını **Yayınlayan Kuruluş** alanına girin, **Gizli Anahtar** alanına size verilen gizli anahtarı girin ve son olarak **Tamam**'ı tıklayın. ![hesap ekle](/assets/quickstart/add-account.png)
 
-5. After the new account is added, you will see a new entry in the window. ![giriş](/assets/quickstart/example-entry.png)
+5. Yeni hesap eklendikten sonra pencerede yeni bir giriş göreceksiniz. ![giriş](/assets/quickstart/example-entry.png)
 
