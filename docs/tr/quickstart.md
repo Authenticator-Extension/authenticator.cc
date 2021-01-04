@@ -21,9 +21,9 @@ Kimlik Doğrulayıcı Uzantısını Chrome'a ilk yüklediğinizde simgesini ara�
 
 2. Click the scan icon at the top right corner of the window.
 
-    ![click qr button](/assets/quickstart/add-qr.png)
+    ![karekod butonuna tıklayın](/assets/quickstart/add-qr.png)
 
-3. Click and drag to draw a square that completely covers the QR code
+3. Karekodunu tamamen kapsayan bir kare çizmek için tıklayın ve sürükleyin
 
     <video src="/assets/quickstart/qr-scan.webm" autoplay loop></video>
 
