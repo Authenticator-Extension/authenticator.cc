@@ -12,7 +12,7 @@ Most of the time, losing your secrets doesn't mean you will lose your account fo
 
 To prevent from losing codes in the future remember to make a backup every time you add a code.
 
-### Common recovery links:
+### Yaygın kurtarma linkleri:
 
 - [Google](https://support.google.com/accounts/answer/185834)
 - [Twitter](https://help.twitter.com/en/managing-your-account/issues-with-login-authentication)
