@@ -34,11 +34,11 @@ sections:
         title: Hesap Türleri
         stub: hesap-türleri
       - 
-        title: Getting Debugging Information
-        stub: debug-info
+        title: Hata Ayıklama Bilgilerini Alma
+        stub: hata ayıklama-bilgisi
       - 
-        title: Standard Backup Format
-        stub: otp-backup
+        title: Standart Yedekleme Formatı
+        stub: otp-yedeklemesi
       - 
         title: Politika Yapılandırması
         stub: politika-yapılandırması
