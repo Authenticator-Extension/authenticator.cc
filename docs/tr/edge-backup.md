@@ -9,8 +9,8 @@ ver: 1
 
 ![step1](/assets/edge-backup-screenshots/step1.PNG)
 
-2. Go to the "Console" tab at the top of the new window
-3. Paste this into the console and hit enter
+2. Yeni pencerenin üst kısmındaki "Konsol" sekmesine gidin
+3. Bunu konsola yapıştırın ve enter tuşuna basın
 
 ```javascript
 browser.storage.local.get(d=>console.log(JSON.stringify(d,null,2)))
