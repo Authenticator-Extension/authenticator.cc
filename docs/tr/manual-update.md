@@ -1,5 +1,5 @@
 ---
-title: Manually Updating
+title: Elle Güncelleme
 stub: manual-update
 lang: en
 ver: 1
@@ -9,7 +9,7 @@ ver: 1
 
 1. `chrome://extensions` sayfasına gidin
 
-2. Check the box labelled "Developer Mode" in the top right
+2. Sağ üsttekiki "Geliştirici modu" etiketli kutuyu işaretleyin
 
 3. "Uzantıları Şimdi Güncelle"yi tıklayın
 
