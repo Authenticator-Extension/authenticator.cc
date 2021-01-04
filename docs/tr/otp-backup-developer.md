@@ -5,7 +5,7 @@ lang: en
 ver: 1
 ---
 
-Backups are just text files with one otpauth URI per line. Documentation on otpauth URIs are available [here](https://github.com/google/google-authenticator/wiki/Key-Uri-Format). For example, a backup could look like this:
+Backups are just text files with one otpauth URI per line. Otpauth URI'lerine ilişkin belgelere [buradan](https://github.com/google/google-authenticator/wiki/Key-Uri-Format) ulaşılabilir. For example, a backup could look like this:
 
     otpauth://totp/example.com?secret=FLIQ7AABIXF2DBUYE7VYAV2T7232KVYB
     otpauth://totp/Test%20Account:?secret=R6TTJ5T26NWTHPIPXAOYQ6BVWEBLE6W2&issuer=Test%20Account
