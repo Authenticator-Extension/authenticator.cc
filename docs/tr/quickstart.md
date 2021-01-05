@@ -35,9 +35,9 @@ Kimlik Doğrulayıcı Uzantısını Chrome'a ilk yüklediğinizde simgesini ara�
 
 1. Tarayıcınızdaki Kimlik Doğrulayıcı Uzantının simgesini tıklayın
 
-2. Pencerenin sağ üst köşesindeki kalem simgesini tıklayın. ![el ile giriş](/assets/quickstart/click-edit.png)
+2. Pencerenin sağ üst köşesindeki kalem simgesini tıklayın. ![elle giriş](/assets/quickstart/click-edit.png)
 
-3. Pencerenin sağ üst köşesindeki artı düğmesini tıklayın. **El ile Giriş**'i seçin. ![el ile giriş](/assets/quickstart/click-add.png)
+3. Pencerenin sağ üst köşesindeki artı düğmesini tıklayın. **Elle Giriş**'i seçin. ![elle giriş](/assets/quickstart/click-add.png)
 
 4. Bu hesabın ilişkili olduğu web sitesinin adını **Yayınlayan Kuruluş** alanına girin, **Gizli Anahtar** alanına size verilen gizli anahtarı girin ve son olarak **Tamam**'ı tıklayın. ![hesap ekle](/assets/quickstart/add-account.png)
 
