@@ -14,8 +14,8 @@ Ayrıntılı hata ayıklama bilgilerini bildirmek için aşağıdaki adımları 
 
 ## Chrome
 
-1. Kimlik Doğrulayıcı'yı aç
-2. Kimlik Doğrulayıcı'ya sağ tıklayın ve "İncele" yi tıklayın
+1. Kimlik Doğrulayıcıyı aç
+2. Kimlik Doğrulayıcıya sağ tıklayın ve "İncele" yi tıklayın
 
 ![step2](/assets/debugging-screenshots/chrome/step2.PNG)
 
@@ -48,7 +48,7 @@ Ayrıntılı hata ayıklama bilgilerini bildirmek için aşağıdaki adımları 
 
 ![step5](/assets/debugging-screenshots/firefox/step5.PNG)
 
-6. Kimlik Doğrulayıcı'yı tekrar açın
+6. Kimlik Doğrulayıcıyı tekrar açın
 7. Tüm mesajları kopyalayıp sorun açıklamasına yapıştırın
 
 ![step7](/assets/debugging-screenshots/firefox/step7.PNG)
