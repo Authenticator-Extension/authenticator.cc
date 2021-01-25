@@ -13,7 +13,7 @@ Some 2FA applications support interoperable backups. In other words, if you make
 | [FreeOTP+](https://github.com/helloworld1/FreeOTPPlus)  | 1.3+    |                                      |
 | [Aegis](https://getaegis.app/)                          | v1.2+   | Import only, use "Plain text" option | {: .table .table-striped} 
 
-Planned Support:
+Planlı Destek:
 
 - [Gnome Authenticator](https://gitlab.gnome.org/World/Authenticator)
 
