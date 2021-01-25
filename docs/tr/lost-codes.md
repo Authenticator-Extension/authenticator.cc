@@ -5,7 +5,7 @@ lang: en
 ver: 1
 ---
 
-Most of the time, losing your secrets doesn't mean you will lose your account forever. Here are a few steps to take to get your accounts back:
+Most of the time, losing your secrets doesn't mean you will lose your account forever. Hesaplarınızı geri almak için atmanız gereken birkaç adım:
 
 - Websites usually give a recovery code to you when you enable 2FA on your account. Use your recovery code to get access to your account.
 - If you don't have a recovery code go to the site's support and ask them to disable two factor authentication on your account for you. Recovering your account this way can take a while to process and you will likely need to provide proof of identity.
