@@ -5,7 +5,7 @@ lang: en
 ver: 1
 ---
 
-1. Kimlik Doğrulayıcı'yı açın, sağ tıklayın ve "Öğeyi İncele" yi seçin
+1. Kimlik Doğrulayıcıyı açın, sağ tıklayın ve "Öğeyi İncele" yi seçin
 
 ![step1](/assets/edge-backup-screenshots/step1.PNG)
 
