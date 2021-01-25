@@ -5,7 +5,7 @@ lang: en
 ver: 1
 ---
 
-Kimlik Doğrulayıcı Uzantısı tarayıcı içi Tek Kullanımlık Parola (OTP) istemcisidir. Authenticator Extension supports both Time-Based One-Time Password (TOTP, specified in [RFC 6238](https://tools.ietf.org/html/rfc6238)) and HMAC-Based One-Time Password (HOTP, specified in [RFC 4226](https://tools.ietf.org/html/rfc4226)).
+Kimlik Doğrulayıcı Uzantısı tarayıcı içi Tek Kullanımlık Parola (OTP) istemcisidir. Kimlik Doğrulayıcı Uzantısı hem zamana dayalı Tek Kullanımlık Parolayı (TOTP, [RFC 6238](https://tools.ietf.org/html/rfc6238)'de belirtilmiştir) ve HMAC tabanlı Tek Kullanımlık Parolayı (HOTP, [RFC 4226](https://tools.ietf.org/html/rfc4226)'da belirtilmiştir) destekler.
 
 Başka bir deyişle, Kimlik Doğrulayıcı Uzantısı Google Authenticator gibi uygulamaların tam alternatifi olarak kullanılabilir.
 
