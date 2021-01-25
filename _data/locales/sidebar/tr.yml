@@ -5,9 +5,9 @@ sections:
     docs:
       - 
         title: Kimlik Doğrulayıcı Uzantısı nedir?
-        stub: overview
+        stub: genel görünüm
   - 
-    title: Quickstarts
+    title: Hızlı Başlangıç
     docs:
       - 
         title: İlk Hesabınızı Ekleyin
