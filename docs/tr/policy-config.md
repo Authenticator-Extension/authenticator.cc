@@ -7,7 +7,7 @@ ver: 1
 
 Bu sayfa yöneticiler içindir. Supported settings are documented in [schema-chrome.json](https://github.com/Authenticator-Extension/Authenticator/blob/release/schema-chrome.json). Daha fazla bilgi aşağıda mevcuttur. Open an issue to request more policy controls.
 
-#### Extension IDs
+#### Uzantı Kimlikleri
 
 Chrome: `bhghoamapcdpbohphigoooaddinpkbai`
 
@@ -35,7 +35,7 @@ Example:
 
 Documentation: [Deploy](https://support.google.com/chrome/a/answer/6306504), [Configure](https://chromium.org/administrators/configuring-policy-for-extensions)
 
-The format for Chrome policies is different per-platform, but a working config for Linux would look like this:
+Chrome politikalarının biçimi platform başına farklıdır ancak Linux için çalışan bir yapılandırma şöyle görünür:
 
 ```jsonc
 {
