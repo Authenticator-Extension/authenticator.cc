@@ -1,5 +1,5 @@
 ---
-title: Policy Configuration
+title: Politika Yapılandırması
 stub: policy-config
 lang: en
 ver: 1
