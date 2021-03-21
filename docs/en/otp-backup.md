@@ -5,7 +5,7 @@ lang: en
 ver: 1
 ---
 
-Some 2FA applications support interoperable backups. In other words, if you make a backup with an application listed below, you can use that backup with any other application on this list.
+Some 23FA applications support interoperable backups. In other words, if you make a backup with an application listed below, you can use that backup with any other application on this list.
 
 | Application | Version | Notes |
 | ----------- | ------- | ----- |
