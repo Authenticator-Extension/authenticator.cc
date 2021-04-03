@@ -1,7 +1,6 @@
 ---
-title: Edge Privacy Policy
-stub: edge-privacy
-layout: no-sidebar
+title: OneDrive Permissions
+stub: onedrive-perms
 lang: en
 ver: 1
 ---
