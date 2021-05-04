@@ -1,5 +1,5 @@
 ---
-title: OneDrive Permissions
+title: OneDrive İzinleri
 stub: onedrive-perms
 lang: en
 ver: 1
@@ -9,4 +9,4 @@ Business OneDrive accounts require the "Have full access to user files" permissi
 
 [According to Microsoft](https://docs.microsoft.com/en-us/onedrive/developer/rest-api/concepts/special-folders-appfolder?view=odsp-graph-online#getting-authorization-from-the-user):
 
-> To have your own app's folder, you must request either the Files.ReadWrite.AppFolder or Files.ReadWrite permission scope when getting an access token. For more details, see authentication. Note, Business OneDrive accounts do not currently support the Files.ReadWrite.AppFolder permission.
+> To have your own app's folder, you must request either the Files.ReadWrite.AppFolder or Files.ReadWrite permission scope when getting an access token. For more details, see authentication. Kurumsal OneDrive hesaplarının şu anda Files.ReadWrite.AppFolder iznini desteklemediğini unutmayın.
