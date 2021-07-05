@@ -5,7 +5,7 @@ lang: en
 ver: 1
 ---
 
-Bu sayfa yöneticiler içindir. Supported settings are documented in [schema-chrome.json](https://github.com/Authenticator-Extension/Authenticator/blob/release/schema-chrome.json). Daha fazla bilgi aşağıda mevcuttur. Open an issue to request more policy controls.
+Bu sayfa yöneticiler içindir. Supported settings are documented in [schema-chrome.json](https://github.com/Authenticator-Extension/Authenticator/blob/release/manifests/schema-chrome.json). Daha fazla bilgi aşağıda mevcuttur. Open an issue to request more policy controls.
 
 #### Uzantı Kimlikleri
 
