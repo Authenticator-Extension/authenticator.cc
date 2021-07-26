@@ -4,6 +4,7 @@
 {% assign i18n = site.data.locales.default[page.lang] | default: site.data.locales.default.en %}
 
 <head>
+    <link rel="icon" href="/assets/logo/logo.svg">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% assign pages=site.pages | where:"stub", page.stub | sort: 'lang' %}
