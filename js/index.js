@@ -34,8 +34,7 @@ function setButtons() {
             link2.href = "https://addons.mozilla.org/en-US/firefox/addon/auth-helper?src=external-website";
             break;
         case "Opera":
-            link0.href = "https://authenticator.cc/docs/en/opera-insta
-            ll";
+            link0.href = "/docs/en/opera-install";
             break;
         default:
             break;
