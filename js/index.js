@@ -19,7 +19,7 @@ function setButtons() {
             link1.href = "https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai";
             break;
         case "Edge":
-            link0.href = "/docs/en/edge-install";
+            link0.href = "https://www.microsoft.com/store/apps/9P0FD39WFFMK";
             link1.innerText = "Add to Chrome";
             link1.href = "https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai";
             link2.innerText = "Add to Firefox";
@@ -27,7 +27,7 @@ function setButtons() {
             break;
         case "Edg":
             link0.innerText = "Add to Edge";
-            link0.href = "/docs/en/edge-install";
+            link0.href = "https://microsoftedge.microsoft.com/addons/detail/ocglkepbibnalbgmbachknglpdipeoio";
             link1.innerText = "Add to Chrome";
             link1.href = "https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai";
             link2.innerText = "Add to Firefox";
@@ -48,7 +48,7 @@ function getBrowser() {
         return "Edge";
     } else if (navigator.userAgent.indexOf("Edg") !== -1) {
         return "Edg";
-    } else if (navigator.userAgent.indexOf("OPR") !== -1 || navigator.userAgent.indexOf("Opera") !== -1) { 
+    } else if (navigator.userAgent.indexOf("OPR") !== -1 || navigator.userAgent.indexOf("Opera") !== -1) {
         return "Opera";
     } else {
         return "Chrome"
