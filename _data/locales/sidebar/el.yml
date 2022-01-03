@@ -12,6 +12,9 @@ sections:
       - 
         title: Add Your First Account
         stub: quickstart
+      - 
+        title: Export and Import Backups
+        stub: export-and-import
   - 
     title: Browser Pages
     docs:
