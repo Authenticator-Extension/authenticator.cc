@@ -12,6 +12,9 @@ sections:
       - 
         title: İlk Hesabınızı Ekleyin
         stub: hızlı başlangıç
+      - 
+        title: Export and Import Backups
+        stub: export-and-import
   - 
     title: Tarayıcı Sayfaları
     docs:
