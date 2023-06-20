@@ -21,7 +21,7 @@ Note that untranslated pages should not exist. If a page is untranslated the UI 
 ```
 Where `class` is one of the classes from [here](https://getbootstrap.com/docs/4.3/components/alerts/#examples). E.g. `primary`, `danger`, `warning`, etc.
 
-#### Defualt front matter for new pages
+#### Default front matter for new pages
 
 Normal page:
 
